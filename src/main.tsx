@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import CounterApp from "./CounterApp"
 import './index.css'
+import GitExpertApp from './GitExpertApp'
 
-ReactDOM.render( <CounterApp value={ 10 }/>,
+ReactDOM.render( (<GitExpertApp />),
   document.getElementById('root'))
 

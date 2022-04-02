@@ -1,0 +1,29 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas al componente CounterApp > Mostar en componente con los valores por defecto 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+     
+    10
+     
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+     +1 
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     Reset 
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     -1 
+  </button>
+</Fragment>
+`;

@@ -1,0 +1,23 @@
+// Vitest Snapshot v1
+
+exports[`PrimeraApp test > debe de mostrar <PrimeraApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola soy Monkey D. Luffy
+  </h1>
+  <p>
+    Subtitulo por defecto
+  </p>
+</Fragment>
+`;
+
+exports[`PrimeraApp test > debe de mostrar el sub titulo enviado por props 1`] = `
+<Fragment>
+  <h1>
+    Hola soy Monkey D. Luffy
+  </h1>
+  <p>
+    El rey de los piratas
+  </p>
+</Fragment>
+`;
