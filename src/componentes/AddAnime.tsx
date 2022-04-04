@@ -15,7 +15,7 @@ const AddAnime = ({handleApp}:props) => {
   const handleSubmit = (e:React.FormEvent<HTMLFormElement>)=>{
     e.preventDefault()
     if (inputValue.trim().length > 0){
-      handleApp(animes => [...animes, inputValue])
+      handleApp(animes => [inputValue, ...animes])
       setInputValue("")
     }
   }
