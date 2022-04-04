@@ -15,9 +15,9 @@ const GifGrid = ({anime}:props)=>{
       <div className="card-grid">
 
         {
-          images.map((img) => (
-            <GifGridItem key={ img.id } {...img} />
-          ))
+          images.map(({ id, title, url }) => {
+             return < GifGridItem key = { id } {...{ id, title, url}} />
+          })
         }
       </div>
     </>
