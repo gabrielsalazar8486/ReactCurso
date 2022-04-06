@@ -1,0 +1,33 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en el componeste AddAnime > Debe de mostrar el componete correctamente 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <p />
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;
+
+exports[`Pruebas en el componeste AddAnime > No debe de postear la informacion con submit 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+      HunterX
+    </p>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="HunterX"
+    />
+  </form>
+</Fragment>
+`;

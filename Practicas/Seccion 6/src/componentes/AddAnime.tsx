@@ -22,7 +22,6 @@ const AddAnime = ({handleApp}:props) => {
   return (
     <>
       <form onSubmit={(e)=>{ handleSubmit(e) }}>
-        <p>{inputValue}</p>
         <input
           type='text'
           value={inputValue}

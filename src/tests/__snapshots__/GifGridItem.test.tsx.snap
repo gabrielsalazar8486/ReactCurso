@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en GifGridItem > debe de mostrar el componente correcto 1`] = `
+<div
+  className="card animate__animated animate__fadeInUp"
+>
+  <img
+    alt="one piece GIF"
+    src="https://media3.giphy.com/media/YWB6Hi29vA3jG/giphy.gif?cid=92aa37191titjs9k0vgf4bpceqszx1fd3os87cwya9xzk2r2&rid=giphy.gif&ct=g"
+  />
+  <p>
+    one piece GIF
+  </p>
+</div>
+`;
