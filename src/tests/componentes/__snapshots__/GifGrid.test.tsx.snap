@@ -1,0 +1,42 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en el componente GifGrid > El componente se debe mostar correctamente  1`] = `
+<Fragment>
+  <h3>
+     
+    One piece
+  </h3>
+  <p
+    className="animate__animated animate__fadeInUp"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en el componente GifGrid > debe de mostrar items cuando se cargan las imagenes useAxiosGifs  1`] = `
+<Fragment>
+  <h3>
+     
+    One piece
+  </h3>
+  <p
+    className="animate__animated animate__fadeInUp"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="one piece"
+      url="http://localhost/one/piece.jpg"
+    />
+  </div>
+</Fragment>
+`;
