@@ -23,17 +23,18 @@ exports[`Pruebas en el componente GifGrid > debe de mostrar items cuando se carg
      
     One piece
   </h3>
-  <p
-    className="animate__animated animate__fadeInUp"
-  >
-    Cargando...
-  </p>
   <div
     className="card-grid"
   >
     <GifGridItem
       id="ABC"
       key="ABC"
+      title="one piece"
+      url="http://localhost/one/piece.jpg"
+    />
+    <GifGridItem
+      id="2022"
+      key="2022"
       title="one piece"
       url="http://localhost/one/piece.jpg"
     />

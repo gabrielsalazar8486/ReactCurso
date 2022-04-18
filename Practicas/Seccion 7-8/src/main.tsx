@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import GitExpertApp from './GitExpertApp'
 
-ReactDOM.render( (<h1> Hola mundo </h1>),
+ReactDOM.render( (<GitExpertApp />),
   document.getElementById('root'))
 

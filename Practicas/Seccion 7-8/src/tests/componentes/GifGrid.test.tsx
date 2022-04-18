@@ -23,14 +23,22 @@ describe('Pruebas en el componente GifGrid', ()=>{
         id: 'ABC',
         url: 'http://localhost/one/piece.jpg',
         title: 'one piece'
+      },
+      {
+        id: '2022',
+        url: 'http://localhost/one/piece.jpg',
+        title: 'one piece'
       }
     ]
 
     useAxiosGifs.mockReturnValue({
       data:gifs,
-      loading:true
+      loading:false
     })
     const wrapper = shallow(<GifGrid anime={anime} />)
+
     expect(wrapper).toMatchSnapshot()
+    expect(wrapper.find('p').exists()).toBe(false)
+    expect(wrapper.find('GifGridItem').length).toBe(gifs.length)
   })
 })

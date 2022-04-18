@@ -2,10 +2,10 @@ import { useState } from "react"
 import AddAnime from "./componentes/AddAnime"
 import GifGrid from "./componentes/GifGrid"
 
-const GitExpertApp = ()=>{
+const GitExpertApp = ({ defaultValue = []}:{defaultValue:Array<string>})=>{
 
   // const [animes, setAnimes] = useState(['One piece', 'Naruto', 'Full metal alchemy B.'])
-  const [animes, setAnimes] = useState(['One piece'])
+  const [animes, setAnimes] = useState(defaultValue)
 
   return (
     <>

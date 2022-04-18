@@ -1,0 +1,27 @@
+// Vitest Snapshot v1
+
+exports[`Pruebas en el componente GitExpertApp > Se debe de mostrar corectamente el componente 1`] = `
+<Fragment>
+  <h2>
+    GitExpertApp
+  </h2>
+  <AddAnime
+    handleApp={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas en el componente GitExpertApp > Se debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2>
+    GitExpertApp
+  </h2>
+  <AddAnime
+    handleApp={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
